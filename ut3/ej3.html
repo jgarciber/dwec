@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title></title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="container fs-5">
+
+        <div class="d-flex justify-content-center mt-5 mb-5">
+            <button id="buscar" class="col btn btn-primary">Calcular</button>
+        </div>
+
+
+        <div class="row">
+
+            <div class="col-md-6 col-12">
+                <h1>Map</h1>
+                <div>
+                    Resultado: <span id="mapResultado">---</span>
+                </div>
+                <div>
+                    Tiempo 1: <span id="mapTiempo">---</span>&nbsp;ms
+                </div>
+                <div>
+                    Tiempo 100: <span id="mapTiempo2">---</span>&nbsp;ms
+                </div>
+            </div>
+
+            <div class="col-md-6 col-12">
+                <h1>Set</h1>
+                <div>
+                    Resultado: <span id="setResultado">---</span>
+                </div>
+                <div>
+                    Tiempo 1: <span id="setTiempo">---</span>&nbsp;ms
+                </div>
+                <div>
+                    Tiempo 100: <span id="setTiempo2">---</span>&nbsp;ms
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+
+            <div class="col-md-6 col-12">
+                <h1>WeakMap</h1>
+                <div>
+                    Resultado: <span id="weakMapResultado">---</span>
+                </div>
+                <div>
+                    Tiempo 1: <span id="weakMapTiempo">---</span>&nbsp;ms
+                </div>
+                <div>
+                    Tiempo 100: <span id="weakMapTiempo2">---</span>&nbsp;ms
+                </div>
+            </div>
+
+            <div class="col-md-6 col-12">
+                <h1>WeakSet</h1>
+                <div>
+                    Resultado: <span id="weakSetResultado">---</span>
+                </div>
+                <div>
+                    Tiempo 1: <span id="weakSetTiempo">---</span>&nbsp;ms
+                </div>
+                <div>
+                    Tiempo 100: <span id="weakSetTiempo2">---</span>&nbsp;ms
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+<script type="module" src="./ej3.js"></script>
+
+</html>
